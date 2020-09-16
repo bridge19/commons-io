@@ -1,9 +1,5 @@
 package io.bridge.common.redis;
 
-import com.timevale.framework.tedis.Bootstrap;
-import com.timevale.framework.tedis.config.DefaultTedisConfig;
-import com.timevale.framework.tedis.core.Tedis;
-import com.timevale.framework.tedis.util.TedisUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
